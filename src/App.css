@@ -2,6 +2,10 @@
   text-align: center;
 }
 
+body {
+  background-color: #fdf0d5;
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -35,4 +39,78 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+
+/* App Stuff */
+footer {
+  text-align: center;
+  margin: 2rem;
+  padding: 5px;
+  border: 1px solid black;
+  
+}
+
+footer li{
+  display: inline-block;
+  padding: 1% 5%;
+  
+}
+/* Main Page */
+
+#bradypic{
+  max-width: 500px;
+  height: 500px;
+  border-radius: 50%;
+}
+
+.MainContent{
+  padding: 60px 20%;
+  text-align: center;
+}
+.ContentArea{
+  width: 50%;
+  display: inline-block;
+  
+}
+
+.Skills{
+  list-style: none;
+}
+
+
+
+/* Nav Bar Stuff */
+
+#WebDevTitle{
+  font-size: 18px;
+  
+}
+
+
+/* nav {
+  
+  
+} */
+
+#LinkList{
+  list-style-type: none;
+}
+
+#NavBar {
+  border: 1px solid black;
+  margin: 2rem;
+  padding: 1rem 1rem;
+  text-align: center;
+}
+
+.NavStuff {
+  display: inline-block;
+  padding: 1rem 15rem;
+  vertical-align: middle;
+}
+
+.NavLinks {
+  display: inline-block;
+  padding: 16px;
 }
