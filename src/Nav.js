@@ -1,5 +1,6 @@
 import React from "react";
 import './App.css';
+import './MainInfo';
 
 
 function Nav() {
@@ -15,10 +16,10 @@ function Nav() {
                 </div> */}
                 <div class="NavStuff">
                     <ul id="LinkList">
-                        <li class="NavLinks">Home</li>
-                        <li class="NavLinks">About Me</li>
-                        <li class="NavLinks">Projects</li>
-                        <li class="NavLinks">Skills</li>
+                        <a href="#MainContent" class="NavLinks"><li>Home</li></a>
+                        <a href="#AboutMe" class="NavLinks"><li>About Me</li></a>
+                        <a href="#Projects" class="NavLinks"><li>Projects</li></a>
+                        {/* <li class="NavLinks">Skills</li> */}
                     </ul>
                 </div>
             </div>
