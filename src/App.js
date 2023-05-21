@@ -4,6 +4,9 @@ import './App.css';
 import Nav from './Nav';
 import MainInfo from './MainInfo';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import linkedin from "./img/linkedin.png";
+import github from "./img/github.png";
+
 
 function App() {
   return (
@@ -20,6 +23,7 @@ function App() {
 
       <footer>
         <ul className="Footer">
+          <h1>Contact Me:</h1>
             <li>
                 brady.moore112@gmail.com
             </li>
@@ -27,8 +31,16 @@ function App() {
                 769-232-0388
             </li>
             <li>
-              https://www.linkedin.com/in/brady-moore-916531229/
+              <a href="https://www.linkedin.com/in/brady-moore-916531229/">
+                <img alt="LinkedIn Icon by Freepik" className="FootIco" src={linkedin}/>
+              </a>
             </li>
+            <li>
+              <a href="https://github.com/bradytmoore">
+                  <img alt="Github Icon By IconsBox" className="FootIco" src={github}/>
+              </a>
+            </li>
+            
         </ul>
       </footer>
     </Router>

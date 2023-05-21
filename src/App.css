@@ -31,6 +31,14 @@ footer li{
   
 }
 
+.FootIco{
+  width: 10%;
+  height: 10%;
+}
+.Footer li:hover{
+  color: tan;
+}
+
 
 
 /* Main Page */
@@ -38,7 +46,7 @@ footer li{
 .bradypic{
   max-width: 60%;
   height: 60%;
-  border-radius: 50%;
+  border-radius: 30%;
 }
 
 #MainContent{
@@ -52,9 +60,26 @@ footer li{
   font-family:'Courier New', Courier, monospace;
 }
 
+
 .MainDetails{
-  height: 260px;
-  
+  overflow: hidden;
+  border-right: .15em solid orange;
+  white-space: nowrap;
+  margin: 0 auto;
+  letter-spacing: .15em;
+  animation: 
+  typing 3.5s steps(40,end),
+  blink-caret .75s step-end infinite;
+
+}
+@keyframes typing {
+  from {width: 0}
+  to {width: 100%}
+}
+
+@keyframes blink-caret {
+  from, to {border-color: transparent}
+  50% {border-color: orange;}
 }
 
 /* About Me */
@@ -64,7 +89,13 @@ footer li{
   width: 100%;
   background: #ffffff;
   font-family:'Courier New', Courier, monospace;
+  padding-bottom: 15px;
 
+}
+
+.AboutIco{
+  width: 2%;
+  height: 2%;
 }
 
 .AboutMeContent{
@@ -87,10 +118,6 @@ footer li{
   padding-bottom: 15%;
 }
 
-.bradypic2{
-  max-width: 500px;
-  height: 500px;
-}
 
 .Skills{
   list-style: none;
@@ -124,6 +151,15 @@ footer li{
   padding: 10px;
   font-family:'Courier New', Courier, monospace;
 
+}
+
+/* .bradypic2{
+  max-width: 1000px;
+  height: 800px;
+} */
+.bradypic2{
+  width: 1000px;
+  height: 650px;
 }
 
 .Icons{
@@ -189,6 +225,10 @@ footer li{
     border-radius: 0;
     
   }
+  .AboutIco{
+    width: 5%;
+    height: 5%;
+  }
   .AboutMeContent{
     display: inline;
   }
@@ -201,7 +241,7 @@ footer li{
     padding: 0px 0px;
     border: 0px;
     
-    
+  
   }
   .NavLinks{
     padding-left: 0px;
@@ -210,8 +250,15 @@ footer li{
     margin-right: 50%;
     
   }
+
+  .MainDetails{
+    font-size: 15px;
+  }
+
+  
+
   .ContentArea{
-    padding: 0px;
+    padding: 30px;
   }
   html,
   body {
@@ -237,7 +284,7 @@ footer li{
 
 @media screen and (min-width: 400px) and (max-width: 850px){
   .bradypic2{
-    width: 120%;
+    width: 100%;
     height: 100%;
     
   }
@@ -252,5 +299,8 @@ footer li{
   }
   .AboutMeContent2{
     display: inline;
+  }
+  .MainDetails{
+    font-size: 25px;
   }
 } 
