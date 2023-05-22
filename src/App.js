@@ -10,7 +10,7 @@ import github from "./img/github.png";
 
 function App() {
   return (
-    <HashRouter>
+    
       <Router>
         <div className="App">
           <Nav/>
@@ -45,7 +45,7 @@ function App() {
           </ul>
         </footer>
       </Router>
-    </HashRouter>
+    
 
 
   );
