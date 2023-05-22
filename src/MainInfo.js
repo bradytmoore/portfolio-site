@@ -1,8 +1,5 @@
 import React from 'react';
 import './App.css';
-import Nav from './Nav';
-import Data from './data.json';
-import { useParams } from 'react-router-dom';
 import btm from "./img/aboutpic.jpg";
 import btm2 from "./img/bradytmoore2.jpg";
 import lcspf from "./img/lcspf.jpg";
@@ -24,7 +21,7 @@ import react from "./img/react.svg";
 
 
 function MainInfo() {
-    const params = useParams();
+    
 
     
 
