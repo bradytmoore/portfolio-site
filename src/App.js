@@ -16,9 +16,10 @@ function App() {
           <Nav/>
         </div>
 
-        <Routes>
+        {/* <Routes>
           <Route path="/" element={<MainInfo /> }/>
-        </Routes>
+        </Routes> */}
+        <MainInfo />
         <br/>
         <br/>
 
