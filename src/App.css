@@ -267,28 +267,36 @@ footer li{
   #NavBar{
     text-align: left;
     font-size: 100%;
-    padding: 0px 0px;
+    padding: 10% 0px;
     border: 0px;
+    
+    
     
   
   }
   .NavLinks{
     padding-left: 0px;
     padding-right: 0px;
-    display: inline;
+    display: inline-block;
     margin-right: 50%;
     
+    
   }
+  
 
   .MainDetails{
     font-size: 15px;
+    
   }
 
-  
 
   .ContentArea{
     padding: 30px;
+    padding-bottom: 90%;
+    padding-top: 30%;
   }
+
+  
   html,
   body {
     height: 100%;
