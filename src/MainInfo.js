@@ -52,7 +52,7 @@ function MainInfo() {
 
                 </div>
                 <div className="AboutMeContent2">
-                    <h2>An aspiring Web Developer with a sense of wonderlust <img alt="Planet Earth by Freepik" className="AboutIco" src={globe}/></h2>
+                    <h2>An aspiring Web Developer with a sense of wanderlust <img alt="Planet Earth by Freepik" className="AboutIco" src={globe}/></h2>
                     <br/>
                     <br/>
                     <h3>Graduate from the University of Mississippi</h3>
