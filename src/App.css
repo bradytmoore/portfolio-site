@@ -238,7 +238,7 @@ footer li{
 
 /* Mobile Screens */
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 370px) {
   
   .bradypic2{
     width: 100%;
