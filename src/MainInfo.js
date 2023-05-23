@@ -16,6 +16,7 @@ import html from "./img/html5.svg";
 import javascript from "./img/js.svg";
 import java from "./img/java.svg";
 import react from "./img/react.svg";
+import clouds from "./img/clouds.jpg";
 
 
 
@@ -41,7 +42,7 @@ function MainInfo() {
                     <br/>
                     <br/>
                     <br/>
-                    <h1>About Me</h1>
+                    <h1>-About Me-</h1>
                     <br/>
                     <br/>
                     <br/>
@@ -97,7 +98,7 @@ function MainInfo() {
         <div id="Projects">
             <br/>
             <br/>
-            <h1>Projects</h1>
+            <h1>-Projects-</h1>
             <br/>
             <br/>
             <br/>
