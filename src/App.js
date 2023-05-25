@@ -3,6 +3,8 @@ import logo from './logo.svg';
 import './App.css';
 import Nav from './Nav';
 import MainInfo from './MainInfo';
+import About from './About';
+import Projects from './Projects';
 import { BrowserRouter as Router, Routes, Route, HashRouter } from 'react-router-dom';
 import linkedin from "./img/linkedin.png";
 import github from "./img/github.png";
@@ -20,6 +22,8 @@ function App() {
           <Route path="/" element={<MainInfo /> }/>
         </Routes> */}
         <MainInfo />
+        <About />
+        <Projects />
         <br/>
         <br/>
         
