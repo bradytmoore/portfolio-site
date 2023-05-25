@@ -73,7 +73,7 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 
 ## Optimized for Mobile-First development
 
-
+---
 
 ## Utilizes:
 
