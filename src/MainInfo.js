@@ -1,7 +1,8 @@
 import React from 'react';
 import './App.css';
 import btm from "./img/aboutpic.jpg";
-import btm2 from "./img/bradytmoore2.jpg";
+import btm2 from "./img/aboutpic2.jpg";
+import btm3 from "./img/aboutpic3.jpg";
 import lcspf from "./img/lcspf.jpg";
 import compinven from "./img/companyinventory.png";
 import compsec from "./img/compsecuritydecryption.png";
@@ -50,13 +51,16 @@ function MainInfo() {
                 </div>
                 <div className="AboutMeContent">
                     <img className="AboutMePic" alt="Brady Moore" src={btm} />
+                    
 
                 </div>
+
                 <div className="AboutMeContent2">
-                    <h2>An aspiring Web Developer with a sense of wanderlust <img alt="Planet Earth by Freepik" className="AboutIco" src={globe}/></h2>
+                    <h2>Aspiring Web Developer</h2>
                     <br/>
                     <br/>
                     <h3>Graduate from the University of Mississippi</h3>
+                    <h3>(August 2018 - May 2023)</h3>
                     <br/>
                     <h3>Bachelor of Arts: Political Science</h3>
                     <h3>Minor: Computer Science</h3>
@@ -73,10 +77,11 @@ function MainInfo() {
                     <br/>
                     <h2>Resume Download:</h2>
                     <div class="resicon">
-                    <a href={resume} download>
+                    <button class="ResButton"><a href={resume} download>
                         <img className="Icon" alt="Resume Icon" src={resumeIcon}/>
                         
                     </a>
+                    </button>
                     </div>
                     <br/>
                     <br/>
@@ -168,6 +173,7 @@ function MainInfo() {
     
     
     </div>
+    
 
     );
 

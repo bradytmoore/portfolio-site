@@ -22,6 +22,7 @@ function App() {
         <MainInfo />
         <br/>
         <br/>
+        
 
         <footer>
           <ul className="Footer">
