@@ -69,4 +69,22 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify) -->
 
-Portfolio webapp that displays information about myself, my projects, experience all while displaying some of my technical skills with front-end development.
+#Portfolio Webapp (WIP):
+
+## Optimized for Mobile-First development
+
+---
+
+## Utilizes:
+
+### JavaScript
+### HTML
+### CSS
+### React
+
+---
+
+## Purpose:
+
+### Showcases skills with frontend development
+## Details personal info, education, projects, and contact information
