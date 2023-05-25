@@ -87,4 +87,4 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 ## Purpose:
 
 ### Showcases skills with frontend development
-## Details personal info, education, projects, and contact information
+### Details personal info, education, projects, and contact information
