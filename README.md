@@ -80,7 +80,7 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 ### JavaScript
 ### HTML
 ### CSS
-### React
+### React.js
 
 ---
 
